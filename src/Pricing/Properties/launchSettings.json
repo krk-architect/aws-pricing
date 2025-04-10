@@ -1,0 +1,8 @@
+{
+    "profiles": {
+        "Pricing": {
+            "commandName": "Project",
+            "commandLineArgs": "--output ./Files/Output --config ./Files/Input/SavingsPlanScaling.yml --config ./Files/Input/OnDemandScaling.yml --config ./Files/Input/OnDemand24x7.yml"
+        }
+    }
+}

@@ -1,0 +1,233 @@
+{
+    "prod": {
+        "cpu": 8,
+        "gb": 16,
+        "totalTasks": 8,
+        "tasks": [
+            {
+                "type": "Savings Plan",
+                "tasks": 0,
+                "hours": {
+                    "start": 0,
+                    "end": 24,
+                    "perTask": 24,
+                    "total": 0
+                },
+                "price": {
+                    "year": 0.00,
+                    "month": 0.00,
+                    "day": 0.00,
+                    "hour": 0.00
+                }
+            },
+            {
+                "type": "On Demand",
+                "tasks": 8,
+                "hours": {
+                    "start": 0,
+                    "end": 24,
+                    "perTask": 24,
+                    "total": 192
+                },
+                "price": {
+                    "year": 23543.37,
+                    "month": 1961.95,
+                    "day": 64.46,
+                    "hour": 2.69
+                }
+            }
+        ],
+        "price": {
+            "year": 23543.37,
+            "month": 1961.95,
+            "day": 64.46,
+            "hour": 2.69
+        }
+    },
+    "cte": {
+        "cpu": 4,
+        "gb": 15,
+        "totalTasks": 3,
+        "tasks": [
+            {
+                "type": "Savings Plan",
+                "tasks": 0,
+                "hours": {
+                    "start": 0,
+                    "end": 24,
+                    "perTask": 24,
+                    "total": 0
+                },
+                "price": {
+                    "year": 0.00,
+                    "month": 0.00,
+                    "day": 0.00,
+                    "hour": 0.00
+                }
+            },
+            {
+                "type": "On Demand",
+                "tasks": 3,
+                "hours": {
+                    "start": 0,
+                    "end": 24,
+                    "perTask": 24,
+                    "total": 72
+                },
+                "price": {
+                    "year": 5109.96,
+                    "month": 425.83,
+                    "day": 13.99,
+                    "hour": 0.58
+                }
+            }
+        ],
+        "price": {
+            "year": 5109.96,
+            "month": 425.83,
+            "day": 13.99,
+            "hour": 0.58
+        }
+    },
+    "qa": {
+        "cpu": 4,
+        "gb": 13,
+        "totalTasks": 4,
+        "tasks": [
+            {
+                "type": "Savings Plan",
+                "tasks": 0,
+                "hours": {
+                    "start": 0,
+                    "end": 24,
+                    "perTask": 24,
+                    "total": 0
+                },
+                "price": {
+                    "year": 0.00,
+                    "month": 0.00,
+                    "day": 0.00,
+                    "hour": 0.00
+                }
+            },
+            {
+                "type": "On Demand",
+                "tasks": 4,
+                "hours": {
+                    "start": 0,
+                    "end": 24,
+                    "perTask": 24,
+                    "total": 96
+                },
+                "price": {
+                    "year": 6548.20,
+                    "month": 545.68,
+                    "day": 17.93,
+                    "hour": 0.75
+                }
+            }
+        ],
+        "price": {
+            "year": 6548.20,
+            "month": 545.68,
+            "day": 17.93,
+            "hour": 0.75
+        }
+    },
+    "dev": {
+        "cpu": 4,
+        "gb": 13,
+        "totalTasks": 2,
+        "tasks": [
+            {
+                "type": "Savings Plan",
+                "tasks": 0,
+                "hours": {
+                    "start": 0,
+                    "end": 24,
+                    "perTask": 24,
+                    "total": 0
+                },
+                "price": {
+                    "year": 0.00,
+                    "month": 0.00,
+                    "day": 0.00,
+                    "hour": 0.00
+                }
+            },
+            {
+                "type": "On Demand",
+                "tasks": 2,
+                "hours": {
+                    "start": 0,
+                    "end": 24,
+                    "perTask": 24,
+                    "total": 48
+                },
+                "price": {
+                    "year": 3274.10,
+                    "month": 272.84,
+                    "day": 8.96,
+                    "hour": 0.37
+                }
+            }
+        ],
+        "price": {
+            "year": 3274.10,
+            "month": 272.84,
+            "day": 8.96,
+            "hour": 0.37
+        }
+    },
+    "test": {
+        "cpu": 4,
+        "gb": 8,
+        "totalTasks": 3,
+        "tasks": [
+            {
+                "type": "Savings Plan",
+                "tasks": 0,
+                "hours": {
+                    "start": 0,
+                    "end": 24,
+                    "perTask": 24,
+                    "total": 0
+                },
+                "price": {
+                    "year": 0.00,
+                    "month": 0.00,
+                    "day": 0.00,
+                    "hour": 0.00
+                }
+            },
+            {
+                "type": "On Demand",
+                "tasks": 3,
+                "hours": {
+                    "start": 0,
+                    "end": 24,
+                    "perTask": 24,
+                    "total": 72
+                },
+                "price": {
+                    "year": 4414.38,
+                    "month": 367.87,
+                    "day": 12.09,
+                    "hour": 0.50
+                }
+            }
+        ],
+        "price": {
+            "year": 4414.38,
+            "month": 367.87,
+            "day": 12.09,
+            "hour": 0.50
+        }
+    },
+    "sum": {
+        "year": 42890.02,
+        "month": 3574.17,
+        "day": 117.43,
+        "hour": 4.89
+    }
+}

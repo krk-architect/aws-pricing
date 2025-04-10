@@ -1,0 +1,32 @@
+prod: 8 vCPU, 16 GB, 8 tasks (2 SP, 6 OD)
+    - $ 4,708.57   2 Savings Plan tasks for 24 hours [12 AM - 12 AM)
+    - $ 7,847.79   4 On Demand    tasks for 16 hours [ 4 AM -  8 PM)
+    - $ 1,961.95   2 On Demand    tasks for  8 hours [ 8 AM -  4 PM)
+      ==========
+      $14,518.31
+
+cte: 4 vCPU, 15 GB, 3 tasks (2 SP, 1 OD)
+    - $2,725.17   2 Savings Plan tasks for 24 hours [12 AM - 12 AM)
+    - $  567.77   1 On Demand    tasks for  8 hours [ 8 AM -  4 PM)
+      =========
+      $3,292.95
+
+qa: 4 vCPU, 13 GB, 4 tasks (2 SP, 2 OD)
+    - $2,619.28   2 Savings Plan tasks for 24 hours [12 AM - 12 AM)
+    - $1,091.37   1 On Demand    tasks for 16 hours [ 4 AM -  8 PM)
+    - $  545.68   1 On Demand    tasks for  8 hours [ 8 AM -  4 PM)
+      =========
+      $4,256.33
+
+dev: 4 vCPU, 13 GB, 2 tasks (2 SP, 0 OD)
+    - $2,619.28   2 Savings Plan tasks for 24 hours [12 AM - 12 AM)
+      =========
+      $2,619.28
+
+test: 4 vCPU, 8 GB, 2 tasks (2 SP, 0 OD)
+    - $2,354.37   2 Savings Plan tasks for 24 hours [12 AM - 12 AM)
+      =========
+      $2,354.37
+
+SUM: $27,041.24
+

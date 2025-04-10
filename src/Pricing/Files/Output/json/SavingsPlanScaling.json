@@ -1,0 +1,233 @@
+{
+    "prod": {
+        "cpu": 8,
+        "gb": 16,
+        "totalTasks": 8,
+        "tasks": [
+            {
+                "type": "Savings Plan",
+                "tasks": 2,
+                "hours": {
+                    "start": 0,
+                    "end": 24,
+                    "perTask": 24,
+                    "total": 48
+                },
+                "price": {
+                    "year": 4708.57,
+                    "month": 392.38,
+                    "day": 12.89,
+                    "hour": 0.54
+                }
+            },
+            {
+                "type": "On Demand",
+                "tasks": 4,
+                "hours": {
+                    "start": 4,
+                    "end": 20,
+                    "perTask": 16,
+                    "total": 64
+                },
+                "price": {
+                    "year": 7847.79,
+                    "month": 653.98,
+                    "day": 21.49,
+                    "hour": 0.90
+                }
+            },
+            {
+                "type": "On Demand",
+                "tasks": 2,
+                "hours": {
+                    "start": 8,
+                    "end": 16,
+                    "perTask": 8,
+                    "total": 16
+                },
+                "price": {
+                    "year": 1961.95,
+                    "month": 163.50,
+                    "day": 5.37,
+                    "hour": 0.22
+                }
+            }
+        ],
+        "price": {
+            "year": 14518.31,
+            "month": 1209.86,
+            "day": 39.75,
+            "hour": 1.66
+        }
+    },
+    "cte": {
+        "cpu": 4,
+        "gb": 15,
+        "totalTasks": 3,
+        "tasks": [
+            {
+                "type": "Savings Plan",
+                "tasks": 2,
+                "hours": {
+                    "start": 0,
+                    "end": 24,
+                    "perTask": 24,
+                    "total": 48
+                },
+                "price": {
+                    "year": 2725.17,
+                    "month": 227.10,
+                    "day": 7.46,
+                    "hour": 0.31
+                }
+            },
+            {
+                "type": "On Demand",
+                "tasks": 1,
+                "hours": {
+                    "start": 8,
+                    "end": 16,
+                    "perTask": 8,
+                    "total": 8
+                },
+                "price": {
+                    "year": 567.77,
+                    "month": 47.31,
+                    "day": 1.55,
+                    "hour": 0.06
+                }
+            }
+        ],
+        "price": {
+            "year": 3292.95,
+            "month": 274.41,
+            "day": 9.02,
+            "hour": 0.38
+        }
+    },
+    "qa": {
+        "cpu": 4,
+        "gb": 13,
+        "totalTasks": 4,
+        "tasks": [
+            {
+                "type": "Savings Plan",
+                "tasks": 2,
+                "hours": {
+                    "start": 0,
+                    "end": 24,
+                    "perTask": 24,
+                    "total": 48
+                },
+                "price": {
+                    "year": 2619.28,
+                    "month": 218.27,
+                    "day": 7.17,
+                    "hour": 0.30
+                }
+            },
+            {
+                "type": "On Demand",
+                "tasks": 1,
+                "hours": {
+                    "start": 4,
+                    "end": 20,
+                    "perTask": 16,
+                    "total": 16
+                },
+                "price": {
+                    "year": 1091.37,
+                    "month": 90.95,
+                    "day": 2.99,
+                    "hour": 0.12
+                }
+            },
+            {
+                "type": "On Demand",
+                "tasks": 1,
+                "hours": {
+                    "start": 8,
+                    "end": 16,
+                    "perTask": 8,
+                    "total": 8
+                },
+                "price": {
+                    "year": 545.68,
+                    "month": 45.47,
+                    "day": 1.49,
+                    "hour": 0.06
+                }
+            }
+        ],
+        "price": {
+            "year": 4256.33,
+            "month": 354.69,
+            "day": 11.65,
+            "hour": 0.49
+        }
+    },
+    "dev": {
+        "cpu": 4,
+        "gb": 13,
+        "totalTasks": 2,
+        "tasks": [
+            {
+                "type": "Savings Plan",
+                "tasks": 2,
+                "hours": {
+                    "start": 0,
+                    "end": 24,
+                    "perTask": 24,
+                    "total": 48
+                },
+                "price": {
+                    "year": 2619.28,
+                    "month": 218.27,
+                    "day": 7.17,
+                    "hour": 0.30
+                }
+            }
+        ],
+        "price": {
+            "year": 2619.28,
+            "month": 218.27,
+            "day": 7.17,
+            "hour": 0.30
+        }
+    },
+    "test": {
+        "cpu": 4,
+        "gb": 8,
+        "totalTasks": 2,
+        "tasks": [
+            {
+                "type": "Savings Plan",
+                "tasks": 2,
+                "hours": {
+                    "start": 0,
+                    "end": 24,
+                    "perTask": 24,
+                    "total": 48
+                },
+                "price": {
+                    "year": 2354.37,
+                    "month": 196.20,
+                    "day": 6.45,
+                    "hour": 0.27
+                }
+            }
+        ],
+        "price": {
+            "year": 2354.37,
+            "month": 196.20,
+            "day": 6.45,
+            "hour": 0.27
+        }
+    },
+    "sum": {
+        "year": 27041.24,
+        "month": 2253.44,
+        "day": 74.03,
+        "hour": 3.08
+    }
+}

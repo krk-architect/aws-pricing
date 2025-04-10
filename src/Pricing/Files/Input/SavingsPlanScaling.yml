@@ -1,0 +1,48 @@
+region: us-east-2
+discounts:
+  enterprise: 0.15
+  savingsPlan: 0.2
+clusters:
+  - name: prod
+    cpu: 8
+    gb: 16
+    tasks:
+      savingsPlan:
+        - tasks: 2
+      onDemand:
+        - tasks: 4
+          hours: [4, 20]
+        - tasks: 2
+          hours: [8, 16]
+  - name: cte
+    cpu: 4
+    gb: 15
+    tasks:
+      savingsPlan:
+        - tasks: 2
+      onDemand:
+        - tasks: 1
+          hours: [8, 16]
+  - name: qa
+    cpu: 4
+    gb: 13
+    tasks:
+      savingsPlan:
+        - tasks: 2
+      onDemand:
+        - tasks: 1
+          hours: [4, 20]
+        - tasks: 1
+          hours: [8, 16]
+  - name: dev
+    cpu: 4
+    gb: 13
+    tasks:
+      savingsPlan:
+        - tasks: 2
+  - name: test
+    cpu: 4
+    gb: 8
+    tasks:
+      savingsPlan:
+        - tasks: 2
