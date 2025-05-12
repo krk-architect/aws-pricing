@@ -24,11 +24,11 @@ await Host.CreateDefaultBuilder(args)
 //
 //   > dotnet run --output ./Files/Output --config ./Files/Input/SavingsPlanScaling.yml --config ./Files/Input/OnDemandScaling.yml --config ./Files/Input/OnDemand24x7.yml
 //
-//   SavingsPlanScaling = $27,041.24    C:\krk\research\aws\src\Pricing\Files\Input\SavingsPlanScaling.yml
-//   OnDemandScaling    = $32,269.63    C:\krk\research\aws\src\Pricing\Files\Input\OnDemandScaling.yml
-//   OnDemand24x7       = $42,890.02    C:\krk\research\aws\src\Pricing\Files\Input\OnDemand24x7.yml
+//   SavingsPlanScaling = $27,041.24    C:\krkOLD\research\aws\src\Pricing\Files\Input\SavingsPlanScaling.yml
+//   OnDemandScaling    = $32,269.63    C:\krkOLD\research\aws\src\Pricing\Files\Input\OnDemandScaling.yml
+//   OnDemand24x7       = $42,890.02    C:\krkOLD\research\aws\src\Pricing\Files\Input\OnDemand24x7.yml
 //
-//   C:\krk\research\aws\src\Pricing\Files\Output
+//   C:\krkOLD\research\aws\src\Pricing\Files\Output
 //   |-- json
 //   |   |-- OnDemand24x7.json
 //   |   |-- OnDemandScaling.json
@@ -42,9 +42,9 @@ await Host.CreateDefaultBuilder(args)
 //
 //   To Publish:
 //
-//   > dotnet publish -c Release -o C:\krk\publish\aws-pricing
+//   > dotnet publish -c Release -o C:\krkOLD\publish\aws-pricing
 //
-//   C:\krk\publish\aws-pricing
+//   C:\krkOLD\publish\aws-pricing
 //   |-- Files
 //   |   |-- Input
 //   |   |   |-- OnDemand24x7.yml
@@ -62,11 +62,11 @@ await Host.CreateDefaultBuilder(args)
 //
 //   > aws-pricing.exe --output ./Files/Output --config ./Files/Input/SavingsPlanScaling.yml --config ./Files/Input/OnDemandScaling.yml --config ./Files/Input/OnDemand24x7.yml
 //
-//   SavingsPlanScaling = $27,041.24    C:\krk\publish\aws-pricing\Files\Input\SavingsPlanScaling.yml
-//   OnDemandScaling    = $32,269.63    C:\krk\publish\aws-pricing\Files\Input\OnDemandScaling.yml
-//   OnDemand24x7       = $42,890.02    C:\krk\publish\aws-pricing\Files\Input\OnDemand24x7.yml
+//   SavingsPlanScaling = $27,041.24    C:\krkOLD\publish\aws-pricing\Files\Input\SavingsPlanScaling.yml
+//   OnDemandScaling    = $32,269.63    C:\krkOLD\publish\aws-pricing\Files\Input\OnDemandScaling.yml
+//   OnDemand24x7       = $42,890.02    C:\krkOLD\publish\aws-pricing\Files\Input\OnDemand24x7.yml
 //
-//   C:\krk\publish\aws-pricing\Files\Output
+//   C:\krkOLD\publish\aws-pricing\Files\Output
 //   |-- json
 //   |   |-- OnDemand24x7.json
 //   |   |-- OnDemandScaling.json
